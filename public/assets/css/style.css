@@ -1,22 +1,28 @@
-.container {
-  width: 100%;
-}
-
 body {
   background-image: url("/assets/images/backgroundReact2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: auto;
 }
 
-.app {
 
-  footer {
-    width: 100%;
-    padding: 1rem;
-    margin: .5rem 1rem;
-    text-align: center;
-    transition: 200ms;
-    &:hover {
-      box-shadow: 0 0 2rem gray;
-    }
+.cardsRenderContainer {
+  margin-left: -20px;
+}
+
+#footer {
+  position: absolute;
+  margin-top: 15%;
+  padding-top: 15px;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: #101010;
+  color: white;
+  text-align: center;
+}
+
+#form {
+  margin-bottom: 100px;
+  border: 1px solid black;
+
 }
