@@ -1,10 +1,11 @@
 var React = require("react");
 var Results = require("./grandchildren/Results");
 var SearchBar = require("./grandchildren/SearchBar");
-var MapContainer = require("./grandchildren/Map");
+var MapResults = require("./grandchildren/Map");
 var helpers = require("../utils/helpers");
 // Including the Link component from React Router to navigate within our application without full page reloads
 var Link = require("react-router").Link;
+
 
 
 
@@ -89,6 +90,8 @@ var Search = React.createClass({
         </div>
 
         <div className="row">
+
+          <MapResults/>
 
         </div>
     </div>
