@@ -24,7 +24,7 @@ var Results = React.createClass({
         </div>
         <div className="panel-body text-center">
 
-        
+
 {/*###################################################*/}
 
 {this.props.item.data.map(function(search, i) {
@@ -33,6 +33,7 @@ var Results = React.createClass({
               <Row>
               <Col xs={6} md={4}>
                 <Thumbnail src={search.image}>
+                  <hr></hr>
                 <h3>{search.itemName}</h3>
                 <p>{search.price}</p>
                 </Thumbnail>

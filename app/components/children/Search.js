@@ -38,10 +38,10 @@ var Search = React.createClass({
   // Here we set a generic state associated with the text being searched for
   getInitialState: function() {
     return { term: "",
-    item: {data:[],
-            config: {
-              url:""
-            }}
+      item: {data:[],
+      config: {
+      url:""
+  }}
   };
   },
   setTerm: function(term) {
@@ -58,10 +58,10 @@ var Search = React.createClass({
         float: 'left',
       };
 
-   		return (
+
 
     return (
-
+    
       <div className="cardsRenderContainer">
 
         {/* <Media style={itemCardStyle}>
