@@ -1,7 +1,7 @@
 // Include React
 var React = require("react");
 
-import ReactMapboxGl, { Layer, Marker } from "react-mapbox-gl";
+import ReactMapboxGl, { Layer, Marker  } from "react-mapbox-gl";
 
 const Map = ReactMapboxGl({
   accessToken: "pk.eyJ1IjoibXdhbHQwOSIsImEiOiJjajZjaWlqYjYxczBsMndsbWN6amtiNzRjIn0.9TfmdTvGjkTBrrEmucHbSw"
@@ -34,14 +34,10 @@ var MapResults = React.createClass({
                 id="marker"
                 layout={{ "icon-image": "marker-15" }}>
 
-                
+
               </Layer>
 
-              <Marker
-                coordinates={[-0.2416815, 51.5285582]}
-                anchor="bottom">
-                <img src={markerUrl}/>
-              </Marker>
+
           </Map>
     );
   }
