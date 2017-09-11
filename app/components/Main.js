@@ -5,21 +5,30 @@ var Link = require("react-router").Link;
 
 import NavBar from "./children/Navbar.js";
 
+
 var Main = React.createClass({
 
   // Here we render the function
   render: function() {
 
     return (
-      <div>
-        <div>
+      <div className="container">
+        <div id="containerNav">
           <NavBar/>
         </div>
-        <div>
+
+
+
+        <div className="textBodyCards">
           {this.props.children}
+        </div>
+
+        <div id="mapBoxSquare">
 
         </div>
       </div>
+
+
 
     );
   }

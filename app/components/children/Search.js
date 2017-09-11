@@ -11,7 +11,7 @@ var Link = require("react-router").Link;
 
 import { Container, Row, Col, Well, Media, Thumbnail, Button, Grid  } from 'react-bootstrap';
   // This function allows childrens to update the parent.
-  
+
 // Code from React-Bootstrap for Col.
 
 
@@ -31,7 +31,7 @@ var Search = React.createClass({
       if (response.config.url !== this.state.item.config.url) {
         console.log("we got to this point");
         this.setState({ item : response });
-      
+
       }
     }.bind(this));
   },
@@ -39,10 +39,10 @@ var Search = React.createClass({
   // Here we set a generic state associated with the text being searched for
   getInitialState: function() {
     return { term: "",
-    item: {data:[],
-            config: {
-              url:""
-            }}
+      item: {data:[],
+      config: {
+      url:""
+  }}
   };
   },
   setTerm: function(term) {
@@ -50,16 +50,15 @@ var Search = React.createClass({
   },
   	// Here we render the component
   	render: function() {
-      
-      
-   		return (
 
 
 
-        <div className="cardsRenderContainer">
 
+    return (
 
-      {/* <Media style={itemCardStyle}>
+      <div className="cardsRenderContainer">
+
+        {/* <Media style={itemCardStyle}>
        <Media.Left>
           <img width={64} height={64} src="/assets/images/thumbnail.png" alt="Image"/>
         </Media.Left>
@@ -75,18 +74,18 @@ var Search = React.createClass({
               <Results item={this.state.item} />
             </Col>
 
-            <Col xs={12} md={6}>          
+            <Col xs={12} md={6}>
               <MapResults />
 
             </Col>
 
-           
+
 
 
           </Row>
           </Grid>
-        
-        
+
+
     </div>
 
 		  );

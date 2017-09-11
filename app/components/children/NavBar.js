@@ -39,6 +39,8 @@ var NavBar = React.createClass({
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
+    
     );
   }
 });
