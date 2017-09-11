@@ -43,6 +43,14 @@ body {
   text-align: center;
 }
 
+.addItemFormSheet {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 20%;
+}
+
 #form {
   margin-bottom: 100px;
   border: 1px solid black;
