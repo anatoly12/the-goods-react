@@ -14,7 +14,7 @@ body {
 }
 
 .Row {
-  margin-right: 10%;
+  margin-right: 20%;
 }
 
 #mapBoxSquare {
@@ -43,12 +43,22 @@ body {
   text-align: center;
 }
 
-.addItemFormSheet {
-  height: 400px;
-  width: 500px;
+
+.createItemForm {
+  height: 0 auto;
+  width: 0 auto;
   background-color: white;
-  border: 1px solid white;
+  opacity: .9;
+  /*border: 1px solid white;*/
+  padding: 20px;
   margin-left: 20%;
+  margin-right: 30%;
+  border-radius: 10px;
+  
+}
+
+input {
+  width: 100%;
 }
 
 #form {
