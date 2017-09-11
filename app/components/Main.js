@@ -12,12 +12,19 @@ var Main = React.createClass({
   render: function() {
 
     return (
-      <div>
-        <div>
+      <div className="container">
+        <div id="containerNav">
           <NavBar/>
         </div>
-        <div>
+
+
+
+        <div className="textBodyCards">
           {this.props.children}
+        </div>
+
+        <div id="mapBoxSquare">
+
         </div>
       </div>
 
