@@ -19,32 +19,32 @@ var Results = React.createClass({
   render: function() {
     return (
       <Row>
-        
+
           <h3 className="text-center">Results</h3>
-        
-        
+
+
 
 
 {/*###################################################*/}
 
 {this.props.item.data.map(function(search, i) {
             return (
-              
-             
-              
+
+
+
               <Col xs={12} md={6} key={i}  >
-             
+
                 <Thumbnail src={search.image}>
                   <hr></hr>
                 <h3>{search.itemName}</h3>
                 <p>{search.price}</p>
                 </Thumbnail>
-             
-                </Col>
-              
 
-              
-              
+                </Col>
+
+
+
+
             );
 })}
 
@@ -52,8 +52,8 @@ var Results = React.createClass({
 
 
 
-        
-     
+
+
     );
   }
 });

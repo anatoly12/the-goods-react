@@ -23,7 +23,7 @@ var NavBar = React.createClass({
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#">The Good$</a>
+            <a href="#" className="fontName">The Goods</a>
           </Navbar.Brand>
           <Navbar.Toggle/>
         </Navbar.Header>
@@ -40,7 +40,7 @@ var NavBar = React.createClass({
         </Navbar.Collapse>
       </Navbar>
 
-    
+
     );
   }
 });

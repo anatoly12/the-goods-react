@@ -28,6 +28,15 @@ body {
   margin-right: 3%;
 }
 
+.fontName {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+#app {
+  font-family: 'Dosis', sans-serif;
+}
+
 .cardsRenderContainer {
   margin-left: -20px;
 }
