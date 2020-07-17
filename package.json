@@ -12,7 +12,7 @@
   "author": "Brent Gorwin, Jeffrey Nagy, Joseph Jaffe, Joseph Kohatsu, Mikael Walters ",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.12.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.15.2",
     "bootstrap": "^4.0.0-alpha.6",
     "express": "^4.14.0",
