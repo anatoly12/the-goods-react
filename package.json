@@ -19,7 +19,7 @@
     "google-maps-react": "^1.1.0",
     "mapbox-gl": "^0.39.1",
     "mongoose": "^4.5.1",
-    "morgan": "^1.7.0",
+    "morgan": "^1.9.1",
     "react": "^0.14.9",
     "react-addons-css-transition-group": "^15.6.0",
     "react-addons-transition-group": "^15.6.0",
